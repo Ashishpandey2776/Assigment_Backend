@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/urvann';
-const ALLOW_ORIGIN = process.env.ALLOW_ORIGIN || 'http://localhost:5173';
+const ALLOW_ORIGIN = 'http://localhost:5173';
 
 // Middlewares
 app.use(helmet());
